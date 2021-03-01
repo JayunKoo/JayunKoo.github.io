@@ -131,4 +131,11 @@ compress_html:
 sass:
   style:             compressed
 
-
+tipue_search:
+     include:
+         pages: false  # 게시글에 해당하는 내용만 검색 할수 있게 함.
+         collections: []
+     exclude:
+         files: [search.html, index.html, tags.html] # 검색에서 해당 파일들은 제외 시킴 
+         categories: []
+         tags: []
